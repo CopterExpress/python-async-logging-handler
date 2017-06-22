@@ -9,13 +9,13 @@ Useful when using logging in programs, where long-time blocking for logging to f
 
 Clone this repo, then do:
 
-```
+```bash
 python setup.py install
 ```
 
 **Using**
 
-```
+```python
 from async_logging_handler import AsyncFileHandler
 
 # ...
