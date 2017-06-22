@@ -17,7 +17,6 @@ class AsyncHandlerMixin(object):
 
     def __loop(self):
         while True:
-            print 'test'
             record = self.__queue.get()
             try:
                 super(AsyncHandlerMixin, self).emit(record)
