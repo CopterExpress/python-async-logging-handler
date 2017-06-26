@@ -21,5 +21,5 @@ from async_logging_handler import AsyncFileHandler
 # ...
 
 async_handler = AsyncFileHandler(filename)
-some_handler.addHandler(async_handler)
+some_logger.addHandler(async_handler)
 ```
