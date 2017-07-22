@@ -7,10 +7,8 @@ Useful when using logging in programs, where long-time blocking for logging to f
 
 **Installation**
 
-Clone this repo, then do:
-
 ```bash
-python setup.py install
+pip install git+https://github.com/CopterExpress/python-async-logging-handler.git
 ```
 
 **Using**
